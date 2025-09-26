@@ -22,8 +22,8 @@
     "typescript": "^5.5.4"
   },
   "peerDependencies": {
-    "@aitube/clap": "0.2.3",
-    "@aitube/colors": "0.2.3"
+    "@aitube/clap": "^0.2.3",
+    "@aitube/colors": "^0.2.3"
   },
   "repository": {
     "type": "git",
@@ -44,6 +44,7 @@
     "dist/**/*.d.ts"
   ],
   "dependencies": {
+    "@aitube/broadway": "^0.2.4-2",
     "@datagica/parse-entities": "^0.3.0",
     "@datagica/parse-names": "^0.0.8",
     "indexeddb-fs": "^2.1.5"
